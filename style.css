@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to bottom, #d9a7c7, #fffcdc);
+  background: linear-gradient(to bottom, #d9a7c7, #fffcdc);
+  overflow: hidden;
+}
+header,
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.container {
+  margin-top: 10em;
+  height: 75vh;
+  border: 2px solid black;
+  border-radius: 5%;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: #e1eec3;
+  background: -webkit-linear-gradient(to right, #f05053, #e1eec3);
+  background: linear-gradient(to right, #f05053, #e1eec3);
+}
+header {
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+}
+.todo-input {
+  padding: 0.5em;
+  width: 25em;
+  border: none;
+  opacity: 75%;
+}
+form button {
+  padding: 0.5em;
+  border: none;
+  color: black;
+  background-color: white;
+  margin-left: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+form button:hover {
+  color: white;
+  background-color: black;
+}
+.list-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+/* .todo-list {
+  list-style: none;
+  min-width: 45%;
+}
+.todo {
+  margin: 0.5rem;
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  transition: 1s;
+}
+.newTodo {
+  font-size: 1.5em;
+  font-family: "Poppins";
+  margin-left: 5px;
+}
+.delBtn {
+  padding: 1em;
+  border: none;
+  color: black;
+  background: gray;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.delBtn:hover {
+  color: gray;
+  background: black;
+}
+.fa-trash {
+  pointer-events: none;
+}
+.fall {
+  transform: translateX(-10em);
+  opacity: 0%;
+} */
+
+.todo-list {
+  list-style: none;
+  min-width: 45%;
+  padding: 1em;
+}
+.todoDiv {
+  display: flex;
+  margin: 0.5rem;
+  background: white;
+  justify-content: space-between;
+}
+.newTodo {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+.delBtn {
+  padding: 8px;
+  border: none;
+  color: black;
+  background-color: gray;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.delBtn:hover {
+  color: gray;
+  background-color: black;
+}
+.fa-trash {
+  pointer-events: none;
+}
